@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sec.project.SampleTest" time="0.244" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Documents\NetBeansProjects\CyberSecurity Project 1"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="E:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MrBart\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="E:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="E:\Program Files\NetBeans 8.2\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="E:\Program Files\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\Users\MrBart\AppData\Local\Programs\Python\Python35-32\Scripts\;E:\Users\MrBart\AppData\Local\Programs\Python\Python35-32\;E:\Python27\;E:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\MrBart\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Skype\Phone\;E:\Program Files (x86)\Jahshaka\..\gtk2\bin;E:\Program Files (x86)\Jahshaka\..\mlt\bin;E:\Program Files (x86)\OpenLibraries\bin;E:\Program Files (x86)\QuickTime\QTSystem\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files (x86)\PuTTY\;E:\Program Files\MATLAB\R2016b\runtime\win64;E:\Program Files\MATLAB\R2016b\bin;E:\apache-ant-1.9.6\bin;E:\apache-maven-3.3.9\bin;E:\MinGW\bin;E:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\MrBart\AppData\Local\Microsoft\WindowsApps;E:\Users\MrBart\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\MrBart"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="MrBart"/>
+    <property name="java.class.path" value="E:\Program Files\NetBeans 8.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=E:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="E:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;E:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;E:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;E:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;E:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;E:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;E:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;E:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\Program Files\NetBeans 8.2\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="signupAddsDataToDatabase" classname="sec.project.SampleTest" time="0.244">
+    <failure message="expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at sec.project.SampleTest.signupAddsDataToDatabase(SampleTest.java:40)
+]]></failure>
+    <system-out><![CDATA[00:01:28.967 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class sec.project.SampleTest]
+00:01:28.972 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+00:01:28.978 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+00:01:28.995 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [sec.project.SampleTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+00:01:29.005 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [sec.project.SampleTest], using SpringBootContextLoader
+00:01:29.009 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [sec.project.SampleTest]: class path resource [sec/project/SampleTest-context.xml] does not exist
+00:01:29.009 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [sec.project.SampleTest]: class path resource [sec/project/SampleTestContext.groovy] does not exist
+00:01:29.009 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [sec.project.SampleTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+00:01:29.010 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [sec.project.SampleTest]: SampleTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:01:29.044 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [sec.project.SampleTest]
+00:01:29.093 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+00:01:29.093 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+00:01:29.093 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+00:01:29.102 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [sec/project/] to resources [URL [file:/E:/Documents/NetBeansProjects/CyberSecurity%20Project%201/target/test-classes/sec/project/], URL [file:/E:/Documents/NetBeansProjects/CyberSecurity%20Project%201/target/classes/sec/project/]]
+00:01:29.103 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [E:\Documents\NetBeansProjects\CyberSecurity Project 1\target\test-classes\sec\project]
+00:01:29.103 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [E:\Documents\NetBeansProjects\CyberSecurity Project 1\target\test-classes\sec\project] for files matching pattern [E:/Documents/NetBeansProjects/CyberSecurity Project 1/target/test-classes/sec/project/*.class]
+00:01:29.105 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [E:\Documents\NetBeansProjects\CyberSecurity Project 1\target\classes\sec\project]
+00:01:29.105 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [E:\Documents\NetBeansProjects\CyberSecurity Project 1\target\classes\sec\project] for files matching pattern [E:/Documents/NetBeansProjects/CyberSecurity Project 1/target/classes/sec/project/*.class]
+00:01:29.106 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:sec/project/*.class] to resources [file [E:\Documents\NetBeansProjects\CyberSecurity Project 1\target\test-classes\sec\project\SampleTest.class], file [E:\Documents\NetBeansProjects\CyberSecurity Project 1\target\classes\sec\project\CyberSecurityProjectForum.class]]
+00:01:29.145 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [E:\Documents\NetBeansProjects\CyberSecurity Project 1\target\classes\sec\project\CyberSecurityProjectForum.class]
+00:01:29.146 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration sec.project.CyberSecurityProjectForum for test class sec.project.SampleTest
+00:01:29.149 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [sec.project.SampleTest]: using defaults.
+00:01:29.153 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener]
+00:01:29.171 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3a079870, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b2cf7ab, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2aa5fe93, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5c1a8622, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5ad851c9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6156496, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@3c153a1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@b62fe6d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@13acb0d1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3e3047e6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@37e547da, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2b6856dd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5db45159]
+00:01:29.174 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [sec.project.SampleTest]
+00:01:29.174 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [sec.project.SampleTest]
+00:01:29.176 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class sec.project.SampleTest]
+00:01:29.176 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+00:01:29.176 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+00:01:29.177 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [sec.project.SampleTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+00:01:29.177 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [sec.project.SampleTest], using SpringBootContextLoader
+00:01:29.177 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [sec.project.SampleTest]: class path resource [sec/project/SampleTest-context.xml] does not exist
+00:01:29.178 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [sec.project.SampleTest]: class path resource [sec/project/SampleTestContext.groovy] does not exist
+00:01:29.178 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [sec.project.SampleTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+00:01:29.178 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [sec.project.SampleTest]: SampleTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:01:29.184 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [sec.project.SampleTest]
+00:01:29.185 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+00:01:29.185 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+00:01:29.185 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+00:01:29.185 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration sec.project.CyberSecurityProjectForum for test class sec.project.SampleTest
+00:01:29.188 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [sec.project.SampleTest]: using defaults.
+00:01:29.190 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener]
+00:01:29.193 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@65d6b83b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@d706f19, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@30b7c004, org.springframework.test.context.support.DirtiesContextTestExecutionListener@79efed2d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2928854b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@27ae2fd0, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@29176cc1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2f177a4b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4278a03f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@147ed70f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@61dd025, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@124c278f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@15b204a1]
+00:01:29.193 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [sec.project.SampleTest]
+00:01:29.193 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [sec.project.SampleTest]
+00:01:29.194 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [sec.project.SampleTest]
+00:01:29.194 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [sec.project.SampleTest]
+00:01:29.198 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6dbb137d testClass = SampleTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3c9d0b9d testClass = SampleTest, locations = '{}', classes = '{class sec.project.CyberSecurityProjectForum}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@6321e813, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@57855c9a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27a5f880], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+00:01:29.199 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [sec.project.SampleTest]
+00:01:29.199 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [sec.project.SampleTest]
+00:01:29.227 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+00:01:29.227 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+00:01:29.227 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+00:01:29.229 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+00:01:29.229 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.2.RELEASE)
+
+2017-01-29 00:01:29.635  INFO 12040 --- [           main] sec.project.SampleTest                   : Starting SampleTest on BartPC with PID 12040 (started by MrBart in E:\Documents\NetBeansProjects\CyberSecurity Project 1)
+2017-01-29 00:01:29.636  INFO 12040 --- [           main] sec.project.SampleTest                   : No active profile set, falling back to default profiles: default
+2017-01-29 00:01:29.866  INFO 12040 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3aa078fd: startup date [Sun Jan 29 00:01:29 PST 2017]; root of context hierarchy
+2017-01-29 00:01:31.585  INFO 12040 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1d9f7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-01-29 00:01:32.270  INFO 12040 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-01-29 00:01:32.294  INFO 12040 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-01-29 00:01:32.378  INFO 12040 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2017-01-29 00:01:32.380  INFO 12040 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-01-29 00:01:32.381  INFO 12040 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-01-29 00:01:32.426  INFO 12040 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-01-29 00:01:32.552  INFO 12040 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-01-29 00:01:33.229  INFO 12040 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-01-29 00:01:33.239  INFO 12040 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-01-29 00:01:33.273  INFO 12040 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-01-29 00:01:34.445  INFO 12040 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a1d1467, org.springframework.security.web.context.SecurityContextPersistenceFilter@dae5e0, org.springframework.security.web.header.HeaderWriterFilter@425b5fe2, org.springframework.security.web.authentication.logout.LogoutFilter@5a6f6cac, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@298e002d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@466fedfa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ff09659, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e364f1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@536da29c, org.springframework.security.web.session.SessionManagementFilter@343db2f6, org.springframework.security.web.access.ExceptionTranslationFilter@32d0d7eb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14590fe2]
+2017-01-29 00:01:34.745  INFO 12040 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3aa078fd: startup date [Sun Jan 29 00:01:29 PST 2017]; root of context hierarchy
+2017-01-29 00:01:34.811  INFO 12040 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/account],methods=[GET]}" onto public java.lang.String sec.project.controller.AccountController.viewAccount(org.springframework.security.core.Authentication,org.springframework.ui.Model)
+2017-01-29 00:01:34.812  INFO 12040 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/account],methods=[POST]}" onto public java.lang.String sec.project.controller.AccountController.postMessage(java.lang.String,org.springframework.security.core.Authentication)
+2017-01-29 00:01:34.813  INFO 12040 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redirect],methods=[GET]}" onto public java.lang.String sec.project.controller.DefaultController.redirect(java.lang.String)
+2017-01-29 00:01:34.813  INFO 12040 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/*]}" onto public java.lang.String sec.project.controller.DefaultController.defaultMapping()
+2017-01-29 00:01:34.813  INFO 12040 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/view],methods=[GET]}" onto public java.lang.String sec.project.controller.ViewController.view(org.springframework.security.core.Authentication,org.springframework.ui.Model)
+2017-01-29 00:01:34.814  INFO 12040 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/view],methods=[POST]}" onto public java.lang.String sec.project.controller.ViewController.postMessage(java.lang.String,org.springframework.security.core.Authentication)
+2017-01-29 00:01:34.816  INFO 12040 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-01-29 00:01:34.817  INFO 12040 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-01-29 00:01:34.847  INFO 12040 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-01-29 00:01:34.847  INFO 12040 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-01-29 00:01:34.884  INFO 12040 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-01-29 00:01:35.544  INFO 12040 --- [           main] sec.project.SampleTest                   : Started SampleTest in 6.306 seconds (JVM running for 6.946)
+2017-01-29 00:01:35.581  INFO 12040 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-01-29 00:01:35.581  INFO 12040 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-01-29 00:01:35.592  INFO 12040 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 11 ms
+2017-01-29 00:01:35.663  INFO 12040 --- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+]]></system-out>
+  </testcase>
+</testsuite>

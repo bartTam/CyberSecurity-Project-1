@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title th:text="'View ' + ${title}">Thread Title</title>
+        
+    </head>
+    <body>
+        <header th:replace="fragments/header :: header">
+            <p>header for account info</p>
+        </header>
+
+        <div style="height: 1em; text-align: center" th:text="${title}">Title</div>
+        
+        <ol>
+            <li th:each="post : ${posts}">
+                <p th:text="${post.getAuthor()} + ' posted:'">author</p>
+                <p style="padding-left: 1.8em" th:utext="${post.getMessage()}">message</p>
+            </li>
+        </ol>
+        
+        <form action="/view" method="post">
+            Message: <input type="text" name="message"/>
+            <input type="submit" value="Post!"/>
+        </form>
+
+    </body>
+</html>

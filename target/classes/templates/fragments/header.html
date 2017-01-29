@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Header template</title>
+        <style> ul > li{list-style-type: none; display: inline-block;}</style>
+    </head>
+    <body>
+
+        <header th:fragment="header">
+            <div style="text-align:right">
+                <ul style="list-style-type:none">
+                    <li><a th:href="@{/view}" th:text="'View Posts'">View Posts</a></li>
+                    <li><a th:href="@{/account}" th:text="${user}">Account Name</a></li>
+                </ul>
+            </div>
+        </header>
+
+    </body>
+</html>

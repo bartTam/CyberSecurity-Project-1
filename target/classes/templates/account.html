@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title th:text="${account.username}">Account Name</title>
+        
+    </head>
+    <body>
+        <header th:replace="fragments/header :: header">
+            <p>header for account info</p>
+        </header>
+
+        <div style="text-align: center" th:text="${account.username}"/>
+        
+        <br/>
+        
+        <div th:text="${isAdmin}"/>
+        <div th:text="'Posts made: ' + ${account.getPostNumber()}"/>
+        
+        <br/>
+        <br/>
+        <form th:if="${account.isAdmin()}" action="/account" method="post">
+            Search for user: <input type="text" name="user"/>
+            <input type="submit" value="Search"/>
+        </form>
+        <div th:if="${searching}"><span th:text="${searchUser} + ${foundUser}"/></div>
+        
+    </body>
+</html>
